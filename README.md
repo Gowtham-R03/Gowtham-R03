@@ -68,21 +68,6 @@ PSG College of Technology, Coimbatore (2022)**
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gowthamrr03&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gowthamrr03&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowthamrr03&layout=compact&theme=tokyonight" />
-</p>
-
----
-
 ## 🤝 Connect With Me
 📧 **Email:** gowthamrr03@gmail.com  
 🔗 **LinkedIn:** https://linkedin.com/in/gowtham-r-kod  
