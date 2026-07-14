@@ -187,6 +187,16 @@ loads normally again.
 
 <br>
 
+## 🧊 3D Contribution Graph
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph">
+
+</div>
+
+<br>
+
 ## 🐍 Contribution Snake
 
 <div align="center">
