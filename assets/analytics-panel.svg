@@ -1,0 +1,81 @@
+<svg width="1160" height="380" viewBox="0 0 1160 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="analyticsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0e1a"/>
+      <stop offset="50%" stop-color="#171833"/>
+      <stop offset="100%" stop-color="#0d0e1a"/>
+    </linearGradient>
+    <linearGradient id="areaFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7aa2f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="aglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1160" height="380" rx="16" fill="url(#analyticsBg)"/>
+  <rect x="1" y="1" width="1158" height="378" rx="15" fill="none" stroke="#7aa2f7" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- stat tiles -->
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="140" y="20" width="280" height="110" rx="12" fill="#1a1b2e" stroke="#7aa2f7" stroke-opacity="0.3"/>
+    <text x="280" y="70" font-size="30" font-weight="700" fill="#7aa2f7" textLength="60" lengthAdjust="spacingAndGlyphs">138<animate attributeName="opacity" values="0.75;1;0.75" dur="3s" repeatCount="indefinite"/></text>
+    <text x="280" y="96" font-size="13" fill="#c0caf5" textLength="170" lengthAdjust="spacingAndGlyphs">Total Contributions</text>
+    <text x="280" y="115" font-size="11" fill="#7dcfa0" textLength="150" lengthAdjust="spacingAndGlyphs">May 7, 2021 - Present</text>
+
+    <rect x="440" y="20" width="280" height="110" rx="12" fill="#1a1b2e" stroke="#bb9af7" stroke-opacity="0.3"/>
+    <g transform="translate(580,60)">
+      <circle r="22" fill="none" stroke="#bb9af7" stroke-width="2.5" filter="url(#aglow)">
+        <animate attributeName="opacity" values="0.55;1;0.55" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M0,-11 C4,-4 6,0 3,6 C2,2 0,2 0,5 C0,2 -2,2 -3,6 C-6,0 -4,-4 0,-11 Z" fill="#bb9af7" filter="url(#aglow)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="580" y="96" font-size="13" fill="#c0caf5" textLength="170" lengthAdjust="spacingAndGlyphs">Current Streak · 1</text>
+    <text x="580" y="115" font-size="11" fill="#7dcfa0" textLength="60" lengthAdjust="spacingAndGlyphs">Jul 14</text>
+
+    <rect x="740" y="20" width="280" height="110" rx="12" fill="#1a1b2e" stroke="#7dcfa0" stroke-opacity="0.3"/>
+    <text x="880" y="70" font-size="30" font-weight="700" fill="#7dcfa0" textLength="40" lengthAdjust="spacingAndGlyphs">5</text>
+    <text x="880" y="96" font-size="13" fill="#c0caf5" textLength="150" lengthAdjust="spacingAndGlyphs">Longest Streak</text>
+    <text x="880" y="115" font-size="11" fill="#7dcfa0" textLength="130" lengthAdjust="spacingAndGlyphs">Jun 13 - Jun 17</text>
+  </g>
+
+  <!-- chart -->
+  <text x="580" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#7aa2f7">Contribution Activity — Last 31 Days</text>
+
+  <g stroke="#2a2d4a" stroke-width="1" stroke-dasharray="3,4">
+    <line x1="100" y1="194.5" x2="1100" y2="194.5"/>
+    <line x1="100" y1="260" x2="1100" y2="260"/>
+    <line x1="100" y1="340" x2="1100" y2="340"/>
+  </g>
+
+  <path d="M100,340 L133.3,318.2 L166.7,325.5 L200.0,325.5 L233.3,340 L266.7,340 L300.0,340 L333.3,325.5 L366.7,340 L400.0,340 L433.3,332.7 L466.7,340 L500.0,260 L533.3,340 L566.7,310.9 L600.0,340 L633.3,340 L666.7,340 L700.0,340 L733.3,340 L766.7,340 L800.0,296.4 L833.3,325.5 L866.7,303.6 L900.0,310.9 L933.3,310.9 L966.7,318.2 L1000.0,340 L1033.3,340 L1066.7,340 L1100.0,194.5 L1100,340 L100,340 Z" fill="url(#areaFill)" stroke="none"/>
+
+  <path id="contribLine" d="M100,340 L133.3,318.2 L166.7,325.5 L200.0,325.5 L233.3,340 L266.7,340 L300.0,340 L333.3,325.5 L366.7,340 L400.0,340 L433.3,332.7 L466.7,340 L500.0,260 L533.3,340 L566.7,310.9 L600.0,340 L633.3,340 L666.7,340 L700.0,340 L733.3,340 L766.7,340 L800.0,296.4 L833.3,325.5 L866.7,303.6 L900.0,310.9 L933.3,310.9 L966.7,318.2 L1000.0,340 L1033.3,340 L1066.7,340 L1100.0,194.5"
+        fill="none" stroke="#7aa2f7" stroke-width="2.5" filter="url(#aglow)" pathLength="100" stroke-dasharray="100">
+    <animate attributeName="stroke-dashoffset" values="100;0;0;100" keyTimes="0;0.4;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- traveling highlight dot -->
+  <circle r="5" fill="#eafcff" filter="url(#aglow)">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#contribLine"/>
+    </animateMotion>
+  </circle>
+  <circle r="3.5" fill="#c0caf5" opacity="0.6">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="-0.2s">
+      <mpath href="#contribLine"/>
+    </animateMotion>
+  </circle>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#787c99">
+    <text x="100" y="358">Jun 14</text>
+    <text x="1100" y="358" text-anchor="end">Jul 14</text>
+  </g>
+</svg>
