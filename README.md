@@ -177,7 +177,7 @@ loads normally again.
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowtham-R03&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowtham-R03&theme=tokyonight&hide_border=true&border_radius=12&short_numbers=true"/>
 
 <br>
 
