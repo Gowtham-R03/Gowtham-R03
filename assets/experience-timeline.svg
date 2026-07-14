@@ -1,0 +1,78 @@
+<svg width="1160" height="190" viewBox="0 0 1160 190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="timelineBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="100%" stop-color="#0b1330"/>
+    </linearGradient>
+    <filter id="tglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1160" height="190" rx="16" fill="url(#timelineBg)"/>
+  <rect x="1" y="1" width="1158" height="188" rx="15" fill="none" stroke="#4fd1ff" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- circuit line -->
+  <path id="circuitPath" d="M120,130 L1040,130" fill="none" stroke="#2f6fa0" stroke-width="3"/>
+  <path d="M120,130 L1040,130" fill="none" stroke="#4fd1ff" stroke-width="1.5" filter="url(#tglow)" opacity="0.7"/>
+
+  <!-- traveling signal pulse with trail -->
+  <circle r="3" fill="#eafcff" opacity="0.35">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="-0.3s">
+      <mpath href="#circuitPath"/>
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#9fe8ff" opacity="0.6">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="-0.15s">
+      <mpath href="#circuitPath"/>
+    </animateMotion>
+  </circle>
+  <circle r="6" fill="#eafcff" filter="url(#tglow)">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#circuitPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Node: IBM 2022 -->
+  <g transform="translate(120,130)">
+    <line x1="0" y1="0" x2="0" y2="-32" stroke="#2f6fa0" stroke-width="2"/>
+    <circle r="16" fill="none" stroke="#7ea7c9" stroke-width="1.5" opacity="0.6"/>
+    <circle r="8" fill="#7ea7c9"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="0" y="18" width="240" height="60" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5" transform="translate(0,0)"/>
+    <text x="120" y="42" font-size="15" font-weight="700" fill="#eaf6ff">2022 · IBM</text>
+    <text x="120" y="62" font-size="12" fill="#9fb3d9">Application Developer</text>
+  </g>
+
+  <!-- Node: SCH Infotech 2023 -->
+  <g transform="translate(580,130)">
+    <line x1="0" y1="0" x2="0" y2="-32" stroke="#2f6fa0" stroke-width="2"/>
+    <circle r="16" fill="none" stroke="#7ea7c9" stroke-width="1.5" opacity="0.6"/>
+    <circle r="8" fill="#7ea7c9"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="460" y="18" width="240" height="60" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5"/>
+    <text x="580" y="42" font-size="15" font-weight="700" fill="#eaf6ff">2023 · SCH Infotech</text>
+    <text x="580" y="62" font-size="12" fill="#9fb3d9">Full Stack Developer</text>
+  </g>
+
+  <!-- Node: Cobay 2025 (current / most recent, highlighted) -->
+  <g transform="translate(1040,130)">
+    <line x1="0" y1="0" x2="0" y2="-32" stroke="#ffd76a" stroke-width="2"/>
+    <circle r="20" fill="none" stroke="#ffe066" stroke-width="1.5" filter="url(#tglow)">
+      <animate attributeName="r" values="16;22;16" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="9" fill="#ffe066" filter="url(#tglow)"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="920" y="18" width="240" height="60" rx="10" fill="#241c08" stroke="#ffd76a" stroke-opacity="0.6"/>
+    <text x="1040" y="42" font-size="15" font-weight="700" fill="#ffe9b0">2025 · Cobay</text>
+    <text x="1040" y="62" font-size="12" fill="#d8c896">Software Engineer · Latest</text>
+  </g>
+</svg>

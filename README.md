@@ -41,32 +41,38 @@
 
 ## 💼 Experience
 
-<table>
-<tr>
-<td width="140" valign="top"><b>2025</b><br><sub>Jan – Aug</sub></td>
-<td>
-<b>Software Engineer</b> — Cobay<br>
-Built shipping & inventory systems for <i>Vilvah, Dudeme, Oorla</i><br>
+<div align="center">
+  <img src="./assets/experience-timeline.svg" alt="experience timeline" width="100%">
+</div>
+
+<br>
+
+<details>
+<summary><b>🟡 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Aug 2025</sub></summary>
+<br>
+
+Built shipping & inventory systems for *Vilvah, Dudeme, Oorla*.
+
 <code>Vue.js</code> <code>Node.js</code> <code>MongoDB</code> <code>AWS EC2/S3</code> <code>Webhooks</code>
-</td>
-</tr>
-<tr>
-<td width="140" valign="top"><b>2023</b><br><sub>Apr – Aug</sub></td>
-<td>
-<b>Full Stack Developer</b> — SCH Infotech<br>
-Angular + NestJS/Node.js apps for <i>Emirates Steel, L&T</i><br>
+</details>
+
+<details>
+<summary><b>🔵 Full Stack Developer — SCH Infotech</b> &nbsp;<sub>Apr 2023 – Aug 2023</sub></summary>
+<br>
+
+Angular + NestJS/Node.js apps for *Emirates Steel, L&T*.
+
 <code>Angular</code> <code>NestJS</code> <code>MySQL</code> <code>MongoDB</code>
-</td>
-</tr>
-<tr>
-<td width="140" valign="top"><b>2022</b><br><sub>Aug – Jan '23</sub></td>
-<td>
-<b>Application Developer</b> — IBM<br>
-REST API integrations for <i>AT&T</i><br>
+</details>
+
+<details>
+<summary><b>🔵 Application Developer — IBM</b> &nbsp;<sub>Aug 2022 – Jan 2023</sub></summary>
+<br>
+
+REST API integrations for *AT&T*.
+
 <code>Angular</code> <code>Spring Boot</code>
-</td>
-</tr>
-</table>
+</details>
 
 **🎓 B.E. Instrumentation & Control Engineering** — PSG College of Technology, Coimbatore (2022)
 **📜 Certified:** IBM GBS Associate (Java Full Stack) · Red Hat Certified Specialist in Containers & Kubernetes
