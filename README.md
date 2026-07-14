@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9ff&height=260&section=header&text=Gowtham%20Rajendran&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Cloud%20%7C%20System%20Design&descAlignY=55&descSize=18">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8993ea,50:9694fa,100:6ee2f5&height=260&section=header&text=Gowtham%20Rajendran&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Cloud%20%7C%20System%20Design&descAlignY=55&descSize=18">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9ff&height=260&section=header&text=Gowtham%20Rajendran&fontSize=58&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Cloud%20%7C%20System%20Design&descAlignY=55&descSize=18">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8993ea,50:9694fa,100:6ee2f5&height=260&section=header&text=Gowtham%20Rajendran&fontSize=58&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Cloud%20%7C%20System%20Design&descAlignY=55&descSize=18">
 </picture>
 
 <a href="https://linkedin.com/in/gowtham-r-kod">
@@ -16,7 +16,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=650&lines=Building+scalable+full-stack+apps;Angular+%E2%80%A2+React+%E2%80%A2+Vue+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js;Cloud-native+%26+microservices+enthusiast;Currently+shipping+on+AWS+%E2%98%81%EF%B8%8F" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Angular+%E2%80%A2+React+%E2%80%A2+Vue+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js;Cloud-Native+%26+Microservices;Currently+shipping+on+AWS+%E2%98%81%EF%B8%8F" alt="Typing SVG">
 </a>
 
 </div>
@@ -35,6 +35,7 @@ role: Full Stack Developer
 based_in: India
 focus: [System Design, Microservices, Cloud-Native Development]
 stack: [Angular, React, Vue.js, Spring Boot, Node.js, MySQL, MongoDB, AWS]
+side_projects: computer vision, WebGL & creative-coding experiments
 currently_building: shipping & inventory platforms on AWS
 open_to: backend-heavy full-stack roles, cloud & system-design work
 ```
@@ -45,25 +46,50 @@ open_to: backend-heavy full-stack roles, cloud & system-design work
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=angular,react,vue,js,ts,html,css&theme=dark">
-  <img src="https://skillicons.dev/icons?i=angular,react,vue,js,ts,html,css">
-</picture>
+**Frontend**
+<br>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
 <br><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=spring,nodejs,express&theme=dark">
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,express">
-</picture>
+
+**Backend**
+<br>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
+
 <br><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark">
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb">
-</picture>
+
+**Database**
+<br>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
+
 <br><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws,docker,kubernetes,git&theme=dark">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git">
-</picture>
+
+**AI / Computer Vision** <sub>· from side projects</sub>
+<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white">
+
+<br><br>
+
+**Cloud & DevOps**
+<br>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
 </div>
 
@@ -103,6 +129,38 @@ REST API integrations for <i>AT&T</i><br>
 
 <br>
 
+## 🎨 Featured Projects
+
+| | | |
+|---|---|---|
+| 🔺 **[laser-flow](https://github.com/Gowtham-R03/laser-flow)** | Full-screen animated WebGL laser beam effect | `three.js` `React` |
+| 🌀 **[image-trail](https://github.com/Gowtham-R03/image-trail)** | Interactive image trail cursor effect | `React` `TypeScript` `GSAP` |
+| 🖐️ **[AirDrawer](https://github.com/Gowtham-R03/AirDrawer)** | Draw in the air using AI-powered hand tracking | `MediaPipe` `React` `Canvas` |
+| ✋ **[Hand-Tracking](https://github.com/Gowtham-R03/Hand-Tracking)** | Real-time webcam hand tracking with glitch visuals | `MediaPipe` `OpenCV` |
+| 🪩 **[Holographic-Tilt-Login](https://github.com/Gowtham-R03/Holographic-Tilt-Login)** | Holographic tilt-effect login card | `CSS` |
+| 🚗 **[CarCounter](https://github.com/Gowtham-R03/CarCounter)** | Drone-view vehicle counting & tracking | `OpenCV` `Python` |
+
+<details>
+<summary><b>📦 More projects</b></summary>
+<br>
+
+| Project | Description |
+|---|---|
+| [Human-Pose-Detector](https://github.com/Gowtham-R03/Human-Pose-Detector) | 33-landmark human pose detection with MediaPipe |
+| [CNN-TrafficSign-Detection](https://github.com/Gowtham-R03/CNN-TrafficSign-Detection) | CNN model for traffic sign detection |
+| [CNN_DigitDetection](https://github.com/Gowtham-R03/CNN_DigitDetection) | Digit classification & detection using CNN |
+| [Customer_Churn_Prediction](https://github.com/Gowtham-R03/Customer_Churn_Prediction) | ANN model to predict customer churn |
+| [Attendance-Monitoring](https://github.com/Gowtham-R03/Attendance-Monitoring) | Attendance storage to AWS S3 + local disk |
+| [Object_Detection_Mobile_APP](https://github.com/Gowtham-R03/Object_Detection_Mobile_APP) | Mobile app for image class detection |
+| [3D-Circular-Card](https://github.com/Gowtham-R03/3D-Circular-Card) | CSS 3D circular card interaction |
+| [water-effect](https://github.com/Gowtham-R03/water-effect) | Interactive water ripple visual effect |
+| [XRayVision](https://github.com/Gowtham-R03/XRayVision) | X-ray style hover reveal effect |
+| [Aruco-Markers-Detection](https://github.com/Gowtham-R03/Aruco-Markers-Detection) | ArUco marker detection with OpenCV |
+
+</details>
+
+<br>
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -117,10 +175,6 @@ REST API integrations for <i>AT&T</i><br>
 <br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gowtham-R03&theme=tokyo-night&hide_border=true&area=true"/>
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Gowtham-R03&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8"/>
 
 </div>
 
