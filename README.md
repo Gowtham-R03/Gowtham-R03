@@ -25,20 +25,9 @@
 
 ## 🖥️ whoami
 
-```bash
-gowtham@dev:~$ cat about_me.txt
-```
-
-```yaml
-name: Gowtham Rajendran
-role: Full Stack Developer
-based_in: India
-focus: [System Design, Microservices, Cloud-Native Development]
-stack: [Angular, React, Vue.js, Spring Boot, Node.js, MySQL, MongoDB, AWS]
-side_projects: computer vision, WebGL & creative-coding experiments
-currently_building: shipping & inventory platforms on AWS
-open_to: backend-heavy full-stack roles, cloud & system-design work
-```
+<div align="center">
+  <img src="./assets/whoami-ironman.svg" alt="whoami" width="100%">
+</div>
 
 <br>
 

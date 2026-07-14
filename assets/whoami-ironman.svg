@@ -1,0 +1,75 @@
+<svg width="960" height="340" viewBox="0 0 960 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0000"/>
+      <stop offset="45%" stop-color="#5c0a0a"/>
+      <stop offset="75%" stop-color="#8f0f0f"/>
+      <stop offset="100%" stop-color="#2b0000"/>
+    </linearGradient>
+    <radialGradient id="arcGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eafcff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#7df9ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7df9ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="reveal">
+      <rect x="0" y="0" width="0" height="340">
+        <animate attributeName="width"
+                 values="0;960;960;0;0"
+                 keyTimes="0;0.22;0.78;0.96;1"
+                 dur="7s"
+                 repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="960" height="340" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="958" height="338" rx="15" fill="none" stroke="#ffd700" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#ffd700" stroke-width="2.5" fill="none" opacity="0.75" stroke-linecap="round">
+    <path d="M22,26 L22,50 M22,26 L46,26"/>
+    <path d="M938,26 L938,50 M938,26 L914,26"/>
+    <path d="M22,314 L22,290 M22,314 L46,314"/>
+    <path d="M938,314 L938,290 M938,314 L914,314"/>
+  </g>
+
+  <!-- pulsing arc reactor -->
+  <g transform="translate(900,32)">
+    <circle r="20" fill="url(#arcGlow)">
+      <animate attributeName="r" values="15;22;15" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="8" fill="#eafcff"/>
+    <circle r="8" fill="none" stroke="#0d0d0d" stroke-width="1.5"/>
+  </g>
+
+  <!-- terminal content, wiped in left-to-right -->
+  <g clip-path="url(#reveal)" font-family="'Fira Code','Cascadia Code',Consolas,Menlo,monospace">
+    <text x="40" y="56" font-size="19" font-weight="700" fill="#ffd700">gowtham@stark-industries:~$ cat about_me.txt</text>
+
+    <text x="40" y="98" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">name</tspan><tspan fill="#c9a97a">: </tspan><tspan>Gowtham Rajendran</tspan>
+    </text>
+    <text x="40" y="126" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">role</tspan><tspan fill="#c9a97a">: </tspan><tspan>Full Stack Developer</tspan>
+    </text>
+    <text x="40" y="154" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">based_in</tspan><tspan fill="#c9a97a">: </tspan><tspan>India</tspan>
+    </text>
+    <text x="40" y="182" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">focus</tspan><tspan fill="#c9a97a">: </tspan><tspan>[System Design, Microservices, Cloud-Native Development]</tspan>
+    </text>
+    <text x="40" y="210" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">stack</tspan><tspan fill="#c9a97a">: </tspan><tspan>[Angular, React, Vue.js, Spring Boot, Node.js, MySQL, MongoDB, AWS]</tspan>
+    </text>
+    <text x="40" y="238" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">side_projects</tspan><tspan fill="#c9a97a">: </tspan><tspan>computer vision, WebGL &amp; creative-coding experiments</tspan>
+    </text>
+    <text x="40" y="266" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">currently_building</tspan><tspan fill="#c9a97a">: </tspan><tspan>shipping &amp; inventory platforms on AWS</tspan>
+    </text>
+    <text x="40" y="294" font-size="15" fill="#f0e6d2">
+      <tspan fill="#ffce54">open_to</tspan><tspan fill="#c9a97a">: </tspan><tspan>backend-heavy full-stack roles, cloud &amp; system-design work</tspan>
+    </text>
+  </g>
+</svg>
