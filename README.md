@@ -1,9 +1,9 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9ff&height=260&section=header&text=Gowtham%20Rajendran&fontSize=58&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Cloud%20%7C%20System%20Design&descAlignY=55&descSize=18">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8993ea,50:9694fa,100:6ee2f5&height=260&section=header&text=Gowtham%20Rajendran&fontSize=58&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Cloud%20%7C%20System%20Design&descAlignY=55&descSize=18">
-</picture>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8993ea,50:9694fa,100:6ee2f5&height=6&section=header" width="100%">
+
+<h1>Hi, I'm Gowtham Rajendran 👋</h1>
+<h3>Full Stack Developer · Cloud · System Design</h3>
 
 <a href="https://linkedin.com/in/gowtham-r-kod">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
@@ -211,9 +211,8 @@ Holopin badges:
 
 📫 **Reach me:** [gowthamrr03@gmail.com](mailto:gowthamrr03@gmail.com) · [LinkedIn](https://linkedin.com/in/gowtham-r-kod)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9ff&height=120&section=footer">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8993ea,50:9694fa,100:6ee2f5&height=120&section=footer">
-</picture>
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6ee2f5,50:9694fa,100:8993ea&height=6&section=footer" width="100%">
 
 </div>
