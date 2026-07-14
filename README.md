@@ -163,12 +163,19 @@ REST API integrations for <i>AT&T</i><br>
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+<!--
+github-readme-stats.vercel.app (stats card + top-langs below) is
+currently returning HTTP 503 "DEPLOYMENT_PAUSED" — its free-tier
+Vercel deployment hit a usage cap. This is a known recurring issue
+with that public instance and it typically comes back on its own.
+Uncomment the two lines below once https://github-readme-stats.vercel.app
+loads normally again.
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Gowtham-R03&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowtham-R03&layout=compact&theme=tokyonight&hide_border=true"/>
+-->
 
-<br>
+<div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowtham-R03&theme=tokyonight&hide_border=true"/>
 
