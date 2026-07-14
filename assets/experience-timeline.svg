@@ -17,8 +17,8 @@
   <rect x="1" y="1" width="1158" height="188" rx="15" fill="none" stroke="#4fd1ff" stroke-opacity="0.25" stroke-width="1.5"/>
 
   <!-- circuit line -->
-  <path id="circuitPath" d="M120,130 L1040,130" fill="none" stroke="#2f6fa0" stroke-width="3"/>
-  <path d="M120,130 L1040,130" fill="none" stroke="#4fd1ff" stroke-width="1.5" filter="url(#tglow)" opacity="0.7"/>
+  <path id="circuitPath" d="M145,130 L1015,130" fill="none" stroke="#2f6fa0" stroke-width="3"/>
+  <path d="M145,130 L1015,130" fill="none" stroke="#4fd1ff" stroke-width="1.5" filter="url(#tglow)" opacity="0.7"/>
 
   <!-- traveling signal pulse with trail -->
   <circle r="3" fill="#eafcff" opacity="0.35">
@@ -38,31 +38,43 @@
   </circle>
 
   <!-- Node: IBM 2022 -->
-  <g transform="translate(120,130)">
+  <g transform="translate(145,130)">
     <line x1="0" y1="0" x2="0" y2="-32" stroke="#2f6fa0" stroke-width="2"/>
     <circle r="16" fill="none" stroke="#7ea7c9" stroke-width="1.5" opacity="0.6"/>
     <circle r="8" fill="#7ea7c9"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <rect x="0" y="18" width="240" height="60" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5" transform="translate(0,0)"/>
-    <text x="120" y="42" font-size="15" font-weight="700" fill="#eaf6ff">2022 · IBM</text>
-    <text x="120" y="62" font-size="12" fill="#9fb3d9">Application Developer</text>
+    <rect x="15" y="16" width="260" height="64" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5"/>
+    <text x="145" y="40" font-size="15" font-weight="700" fill="#eaf6ff" textLength="150" lengthAdjust="spacingAndGlyphs">2022 · IBM</text>
+    <text x="145" y="62" font-size="12" fill="#9fb3d9" textLength="170" lengthAdjust="spacingAndGlyphs">Application Developer</text>
   </g>
 
   <!-- Node: SCH Infotech 2023 -->
-  <g transform="translate(580,130)">
+  <g transform="translate(435,130)">
     <line x1="0" y1="0" x2="0" y2="-32" stroke="#2f6fa0" stroke-width="2"/>
     <circle r="16" fill="none" stroke="#7ea7c9" stroke-width="1.5" opacity="0.6"/>
     <circle r="8" fill="#7ea7c9"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <rect x="460" y="18" width="240" height="60" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5"/>
-    <text x="580" y="42" font-size="15" font-weight="700" fill="#eaf6ff">2023 · SCH Infotech</text>
-    <text x="580" y="62" font-size="12" fill="#9fb3d9">Full Stack Developer</text>
+    <rect x="305" y="16" width="260" height="64" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5"/>
+    <text x="435" y="40" font-size="15" font-weight="700" fill="#eaf6ff" textLength="196" lengthAdjust="spacingAndGlyphs">2023 · SCH Infotech</text>
+    <text x="435" y="62" font-size="12" fill="#9fb3d9" textLength="160" lengthAdjust="spacingAndGlyphs">Full Stack Developer</text>
   </g>
 
-  <!-- Node: Cobay 2025 (current / most recent, highlighted) -->
-  <g transform="translate(1040,130)">
+  <!-- Node: Cobay 2025 -->
+  <g transform="translate(725,130)">
+    <line x1="0" y1="0" x2="0" y2="-32" stroke="#2f6fa0" stroke-width="2"/>
+    <circle r="16" fill="none" stroke="#7ea7c9" stroke-width="1.5" opacity="0.6"/>
+    <circle r="8" fill="#7ea7c9"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="595" y="16" width="260" height="64" rx="10" fill="#0e1730" stroke="#2f6fa0" stroke-opacity="0.5"/>
+    <text x="725" y="40" font-size="15" font-weight="700" fill="#eaf6ff" textLength="130" lengthAdjust="spacingAndGlyphs">2025 · Cobay</text>
+    <text x="725" y="62" font-size="12" fill="#9fb3d9" textLength="140" lengthAdjust="spacingAndGlyphs">Software Engineer</text>
+  </g>
+
+  <!-- Node: Canorouse Technology 2026 (current, highlighted) -->
+  <g transform="translate(1015,130)">
     <line x1="0" y1="0" x2="0" y2="-32" stroke="#ffd76a" stroke-width="2"/>
     <circle r="20" fill="none" stroke="#ffe066" stroke-width="1.5" filter="url(#tglow)">
       <animate attributeName="r" values="16;22;16" dur="2s" repeatCount="indefinite"/>
@@ -71,8 +83,8 @@
     <circle r="9" fill="#ffe066" filter="url(#tglow)"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <rect x="920" y="18" width="240" height="60" rx="10" fill="#241c08" stroke="#ffd76a" stroke-opacity="0.6"/>
-    <text x="1040" y="42" font-size="15" font-weight="700" fill="#ffe9b0">2025 · Cobay</text>
-    <text x="1040" y="62" font-size="12" fill="#d8c896">Software Engineer · Latest</text>
+    <rect x="885" y="16" width="260" height="64" rx="10" fill="#241c08" stroke="#ffd76a" stroke-opacity="0.6"/>
+    <text x="1015" y="40" font-size="15" font-weight="700" fill="#ffe9b0" textLength="180" lengthAdjust="spacingAndGlyphs">2026 · Canorouse</text>
+    <text x="1015" y="62" font-size="12" fill="#d8c896" textLength="190" lengthAdjust="spacingAndGlyphs">Senior Software Engineer</text>
   </g>
 </svg>

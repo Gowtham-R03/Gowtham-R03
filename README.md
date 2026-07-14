@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8993ea,50:9694fa,100:6ee2f5&height=6&section=header" width="100%">
 
 <h1>Hi, I'm Gowtham Rajendran 👋</h1>
-<h3>Full Stack Developer · Cloud · System Design</h3>
+<h3>Senior Software Engineer · Cloud · System Design</h3>
 
 <a href="https://linkedin.com/in/gowtham-r-kod">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
@@ -16,7 +16,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Angular+%E2%80%A2+React+%E2%80%A2+Vue+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js;Cloud-Native+%26+Microservices;Currently+shipping+on+AWS+%E2%98%81%EF%B8%8F" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8993EA&center=true&vCenter=true&width=700&lines=Senior+Software+Engineer;Angular+%E2%80%A2+React+%E2%80%A2+Vue+%E2%80%A2+Spring+Boot+%E2%80%A2+Node.js;AI+%26+SaaS+Product+Development;Currently+building+at+Canorouse+Technology" alt="Typing SVG">
 </a>
 
 </div>
@@ -47,8 +47,17 @@
 
 <br>
 
+<details open>
+<summary><b>🟡 Senior Software Engineer — Canorouse Technology</b> &nbsp;<sub>Feb 2026 – Present</sub></summary>
+<br>
+
+Building AI-powered SaaS products — from LLM-driven features to scalable multi-tenant cloud architecture.
+
+<code>Node.js</code> <code>React</code> <code>OpenAI API</code> <code>AWS</code> <code>MongoDB</code>
+</details>
+
 <details>
-<summary><b>🟡 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Aug 2025</sub></summary>
+<summary><b>🔵 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Aug 2025</sub></summary>
 <br>
 
 Built shipping & inventory systems for *Vilvah, Dudeme, Oorla*.

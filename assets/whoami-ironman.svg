@@ -79,7 +79,7 @@
       <tspan fill="#ffce54">name</tspan><tspan fill="#c9a97a">: </tspan><tspan>Gowtham Rajendran</tspan>
     </text>
     <text x="40" y="126" font-size="15" fill="#f0e6d2">
-      <tspan fill="#ffce54">role</tspan><tspan fill="#c9a97a">: </tspan><tspan>Full Stack Developer</tspan>
+      <tspan fill="#ffce54">role</tspan><tspan fill="#c9a97a">: </tspan><tspan>Senior Software Engineer</tspan>
     </text>
     <text x="40" y="154" font-size="15" fill="#f0e6d2">
       <tspan fill="#ffce54">based_in</tspan><tspan fill="#c9a97a">: </tspan><tspan>India</tspan>
@@ -94,7 +94,7 @@
       <tspan fill="#ffce54">side_projects</tspan><tspan fill="#c9a97a">: </tspan><tspan>computer vision, WebGL &amp; creative-coding experiments</tspan>
     </text>
     <text x="40" y="266" font-size="15" fill="#f0e6d2">
-      <tspan fill="#ffce54">currently_building</tspan><tspan fill="#c9a97a">: </tspan><tspan>shipping &amp; inventory platforms on AWS</tspan>
+      <tspan fill="#ffce54">currently_building</tspan><tspan fill="#c9a97a">: </tspan><tspan>AI &amp; SaaS products @ Canorouse Technology</tspan>
     </text>
     <text x="40" y="294" font-size="15" fill="#f0e6d2">
       <tspan fill="#ffce54">open_to</tspan><tspan fill="#c9a97a">: </tspan><tspan>backend-heavy full-stack roles, cloud &amp; system-design work</tspan>
