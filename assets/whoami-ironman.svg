@@ -11,6 +11,10 @@
       <stop offset="35%" stop-color="#7df9ff" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#7df9ff" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="0" y2="-48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7df9ff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#7df9ff" stop-opacity="0.85"/>
+    </linearGradient>
     <clipPath id="reveal">
       <rect x="0" y="0" width="0" height="340">
         <animate attributeName="width"
@@ -33,14 +37,38 @@
     <path d="M1138,314 L1138,290 M1138,314 L1114,314"/>
   </g>
 
-  <!-- pulsing arc reactor -->
-  <g transform="translate(1100,32)">
-    <circle r="20" fill="url(#arcGlow)">
-      <animate attributeName="r" values="15;22;15" dur="2.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+  <!-- arc reactor / radar emblem, always active -->
+  <g transform="translate(1058,170)">
+    <!-- outer housing rings -->
+    <circle r="50" fill="#0d0d0d" opacity="0.4"/>
+    <circle r="48" fill="none" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+    <circle r="38" fill="none" stroke="#9fdfe8" stroke-width="1.2" opacity="0.55"/>
+
+    <!-- dial tick marks -->
+    <g stroke="#ffd700" stroke-width="1.5" opacity="0.65">
+      <line x1="0" y1="-48" x2="0" y2="-41"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(45)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(90)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(135)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(180)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(225)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(270)"/>
+      <line x1="0" y1="-48" x2="0" y2="-41" transform="rotate(315)"/>
+    </g>
+
+    <!-- rotating radar sweep -->
+    <g>
+      <path d="M0,0 L0,-48 A48,48 0 0 1 24,-41.6 Z" fill="url(#sweepGrad)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- pulsing energy core -->
+    <circle r="22" fill="url(#arcGlow)">
+      <animate attributeName="r" values="18;25;18" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle r="8" fill="#eafcff"/>
-    <circle r="8" fill="none" stroke="#0d0d0d" stroke-width="1.5"/>
+    <circle r="13" fill="#0d0d0d" stroke="#eafcff" stroke-width="1.5"/>
+    <path d="M0,-7 L6,3.5 L-6,3.5 Z" fill="#eafcff"/>
   </g>
 
   <!-- terminal content, wiped in left-to-right -->
