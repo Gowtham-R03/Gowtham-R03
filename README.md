@@ -57,7 +57,7 @@ Building AI-powered SaaS products — from LLM-driven features to scalable multi
 </details>
 
 <details>
-<summary><b>🔵 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Aug 2025</sub></summary>
+<summary><b>🔵 Software Engineer — Cobay</b> &nbsp;<sub>Jan 2025 – Jan 2026</sub></summary>
 <br>
 
 Built shipping & inventory systems for *Vilvah, Dudeme, Oorla*.
@@ -66,7 +66,7 @@ Built shipping & inventory systems for *Vilvah, Dudeme, Oorla*.
 </details>
 
 <details>
-<summary><b>🔵 Full Stack Developer — SCH Infotech</b> &nbsp;<sub>Apr 2023 – Aug 2023</sub></summary>
+<summary><b>🔵 Full Stack Developer — SCH Infotech</b> &nbsp;<sub>Apr 2023 – Dec 2024</sub></summary>
 <br>
 
 Angular + NestJS/Node.js apps for *Emirates Steel, L&T*.
